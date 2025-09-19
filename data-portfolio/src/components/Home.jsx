@@ -18,7 +18,7 @@ const Home = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/Nikhil_Nagpal_Resume.pdf'; // public folder se directly access
+    link.href = '/NikhilNagpal_InternshalaResume.pdf'; // public folder se directly access
     link.download = 'Nikhil_Nagpal.pdf'; // ye naam download time pe dikhega
     document.body.appendChild(link);
     link.click();
